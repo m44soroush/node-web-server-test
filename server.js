@@ -24,7 +24,11 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/about',(req,res)=>{
-   res.render('about.hbs');
+    res.render('about.hbs');
+});
+
+app.get('/wlc',(req,res)=>{
+    res.render('wlc.hbs');
 });
 
 app.listen(port,()=>{
